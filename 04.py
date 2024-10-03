@@ -1,11 +1,8 @@
-#write a program to check if the string is palindrom or not
-
-n="madam"
-rev=""
-temp=n 
-for i in n:
-    rev=i+rev
-if temp==rev:
-    print("palindrome")
-else:
-    print("not palindrome")
+s="learning"
+print(s.count("l"))
+print(s.count("e"))
+print(s.count("a"))
+print(s.count("r"))
+print(s.count("n"))
+print(s.count("i"))
+print(s.count("g"))
